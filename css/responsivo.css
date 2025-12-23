@@ -1,0 +1,174 @@
+/* === Tablets (max-width: 900px) === */
+@media screen and (max-width: 900px) {
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-size: 1em;
+        max-width: 90%;
+        padding: 0 10px;
+    }
+
+    nav {
+        padding: 8px;
+    }
+
+    nav>a {
+        font-size: 0.9em;
+        padding: 8px 6px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    main h1 {
+        font-size: 1.5em;
+    }
+
+    main h2 {
+        font-size: 1.1em;
+    }
+
+    main p {
+        font-size: 0.95em;
+        line-height: 1.7em;
+    }
+
+    main img.pequena {
+        max-width: 300px;
+    }
+
+    div.video {
+        padding-bottom: 56%;
+        /* Mantém proporção do vídeo */
+    }
+
+    aside ul {
+        columns: 1;
+    }
+}
+
+/* === Smartphones Médios (max-width: 600px) === */
+@media screen and (max-width: 600px) {
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 0.9em;
+        max-width: 95%;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav>a {
+        font-size: 0.85em;
+        padding: 6px 4px;
+        margin: 3px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    main h1 {
+        font-size: 1.3em;
+    }
+
+    main h2 {
+        font-size: 1em;
+    }
+
+    main p {
+        font-size: 0.9em;
+        line-height: 1.5em;
+    }
+
+    main img.pequena {
+        max-width: 250px;
+    }
+
+    div.video {
+        padding-bottom: 60%;
+    }
+
+    aside {
+        font-size: 0.85em;
+    }
+
+    aside ul {
+        columns: 1;
+    }
+}
+
+/* === Smartphones Pequenos (max-width: 400px) === */
+@media screen and (max-width: 400px) {
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 0.8em;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
+
+    nav>a {
+        font-size: 0.8em;
+        padding: 5px 3px;
+    }
+
+    main {
+        padding: 8px;
+    }
+
+    main h1 {
+        font-size: 1.1em;
+    }
+
+    main h2 {
+        font-size: 0.95em;
+    }
+
+    main p {
+        font-size: 0.85em;
+        line-height: 1.4em;
+        text-indent: 20px;
+    }
+
+    main img.pequena {
+        max-width: 200px;
+    }
+
+    div.video {
+        padding-bottom: 70%;
+    }
+
+    aside {
+        font-size: 0.8em;
+        padding: 8px;
+    }
+
+    aside h3 {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    aside ul {
+        columns: 1;
+    }
+}
